@@ -1,0 +1,344 @@
+* {
+    font-family: sans-serif;
+}
+
+
+/* header */
+
+.header {
+    background-color: #316DC3;
+    height: 45px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: space-around;
+}
+
+button {
+    padding: 5px;
+    font-size: 12px !important;
+    padding: 5px 10px;
+    line-height: 16.5px;
+    vertical-align: middle;
+    color: #427900;
+}
+
+.butt {
+    position: relative;
+    right: 60px;
+}
+
+.para {
+    margin-top: 7px;
+}
+
+.head-image,
+button {
+    margin-top: 5px;
+}
+
+
+/* header */
+
+
+/* second div */
+
+.second-step {
+    background-color: #F7F8FA;
+    min-height: 75px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 14px;
+    top: 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.saylani-img {
+    margin-left: 50px;
+}
+
+.home-button {
+    padding: 8px 16px;
+    background-color: #316DC3;
+    border-radius: 18px;
+    color: white;
+    font-size: 13px;
+    vertical-align: baseline;
+    margin: 10px 8px 0px 8px;
+    border: none;
+}
+
+.home-button-2 {
+    padding: 8px 16px;
+    background-color: #F7F8FA;
+    border: none;
+    border-radius: 18px;
+    color: black;
+    font-size: 13px;
+    vertical-align: baseline;
+    margin: 10px 8px 0px 8px;
+}
+
+.home-button-2:hover {
+    background-color: #316DC3;
+    color: white;
+}
+
+.btn {
+    background-color: #F7F8FA !important;
+    color: black !important;
+    border: none;
+    border-radius: 18px !important;
+    font-size: 13px !important;
+    padding: 8px 16px !important;
+    vertical-align: baseline;
+    margin: 10px 8px 0px 8px;
+}
+
+.btn:hover {
+    background-color: #316DC3 !important;
+    color: black !important;
+}
+
+.dropdown-item {
+    color: gray !important;
+    font-size: 12px !important;
+}
+
+.dropdown-item:hover {
+    background-color: #316DC3 !important;
+    font-size: 12px !important;
+    color: white !important;
+}
+
+.second-step-button {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 145px;
+}
+
+
+/* second div end */
+
+
+/* third section */
+
+marquee {
+    background-color: #316DC3;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    left: 175px;
+    top: 5px;
+    padding-bottom: 5px;
+    width: 70%;
+    direction: left;
+    height: 25px;
+    vertical-align: baseline;
+}
+
+
+/* Third step end */
+
+
+/* fourth step */
+
+.forth-step {
+    background-color: #F7F8FA;
+    margin-top: 10px;
+}
+
+.para-img {
+    text-align: center;
+}
+
+.intro-img {
+    margin-top: 8px;
+}
+
+.para-four {
+    width: 65%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.para-new {
+    text-align: justify;
+    color: #666666;
+    font-size: 12px !important;
+    margin-top: 20px !important;
+    line-height: 26.6px;
+}
+
+
+/* fourth step end */
+
+
+/* sixth step */
+
+.sixth-step {
+    width: 100%;
+    background-color: #F7F8FA;
+    min-height: 500px;
+}
+
+.sixth-step-img {
+    margin: 0px auto;
+    display: block;
+}
+
+.div-flex {
+    max-width: 80%;
+    margin: 20px auto 10px auto;
+    text-align: center;
+}
+
+.sub-div-6 {
+    width: 28%;
+    display: inline-block;
+    margin: 15px 10px 0px 10px;
+    box-shadow: 5px 4px 5px darkgray;
+}
+
+
+/* sixth step end */
+
+
+/* 7th step */
+
+.seventh-step {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px auto 15px auto;
+}
+
+.missions {
+    min-width: 70%;
+}
+
+.missions-h3 {
+    font-size: 24px;
+    color: #316DC3;
+    font-weight: 600;
+    margin-left: 57px;
+}
+
+.marq {
+    min-width: 30%;
+}
+
+.ue {
+    position: relative;
+    left: 48px;
+}
+
+.marquee-two {
+    width: 60%;
+    position: relative;
+    left: 50px;
+    height: 150px;
+    background-color: white;
+    color: #666666;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+.mission-img {
+    position: relative;
+    left: 57px;
+    top: 10px;
+}
+
+
+/* 7th step end */
+
+
+/* 8th step */
+
+.step-eight {
+    /* border: 2px solid red; */
+    min-width: 100%;
+    margin-top: 50px;
+}
+
+.image-gallery-img {
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
+.image-gallery-div {
+    width: 70%;
+    margin: 20px auto 100px auto;
+}
+
+
+/* eight step end */
+
+
+/* footer */
+
+footer {
+    background-color: #25272E;
+    min-height: 280px;
+}
+
+.footer-end {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 70px;
+}
+
+.footer-para {
+    color: #99999B;
+    font-size: 14px;
+}
+
+.footer-links {
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    left: 650px;
+    bottom: 120px;
+}
+
+.useful-img {
+    position: absolute;
+    left: 360px;
+    bottom: 150px;
+}
+
+.copyrights {
+    background-color: #316DC3;
+    color: white;
+    font-size: 9px;
+    padding-top: 20px;
+    height: 40px;
+    vertical-align: top;
+}
+
+
+/* button top */
+
+.go-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    border: none;
+}
+
+
+/* #316dc3 12px */
